@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
+    "build": "tailwindcss build -i assets/css/tailwind.css -o assets/css/style.css --watch",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
