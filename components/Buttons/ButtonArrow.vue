@@ -1,5 +1,7 @@
 <template>
-  <button class="px-5 py-3.5 bg-bg-brand-mojito text-content-primary-inverted">
+  <button type="button"
+          class="px-5 py-3.5 bg-bg-brand-mojito text-content-primary-inverted"
+  >
     <span class="flex gap-2">
       <span class="pb-1">Check out collection</span>
       <span>
