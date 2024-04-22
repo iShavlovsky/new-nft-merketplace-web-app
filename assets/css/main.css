@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 @layer base {
+   .myclass {
+        @apply text-aviation-700;
+    }
+
+}
+
+@layer base {
     body {
         @apply bg-layer-floor-0 text-content-primary
     }

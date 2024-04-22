@@ -27,6 +27,8 @@ module.exports = {
         'plugin:vue/vue3-recommended',
         'plugin:vue/vue3-essential',
         'plugin:@typescript-eslint/recommended',
+        'prettier',
+        // 'plugin:prettier/recommended'
 
     ],
     parser: "vue-eslint-parser",
@@ -37,7 +39,9 @@ module.exports = {
     },
     'plugins': [
         "vue",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "prettier",
+
     ],
     rules: {
         '@typescript-eslint/indent': ['error', 4, {
